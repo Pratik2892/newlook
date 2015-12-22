@@ -1,0 +1,228 @@
+   
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[ RESPONSIVE STYLESHEET ]
+AUTHOR : VIJAYAN PP
+PROJECT : DEV
+VERSION : 1.1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+/*......................................................
+	DESKTOP LAYOUT
+........................................................*/
+@media only screen and (min-width: 1000px){
+
+}
+
+
+/*......................................................
+	MOBILE LAYOUT
+........................................................*/
+@media only screen and (max-width: 1000px)
+{
+    .footer
+{
+    width:110px;
+    height:100vh;/*MENU BAR STYLE FOR MOBILE DEVICES*/
+    left:0px;
+    top:0px;
+    background:#000;
+}
+
+.social-big 
+{
+    display:none;/*HIDE THE SOCIAL ICONS IN THE MENUBAR IN MOBILE DEVICES*/
+    
+}
+.widtH
+{
+    display:block;
+    margin-left:0px; /*ALIGN THE MENU ITEMS VERTICALLY*/
+    margin-top:40px;
+}
+
+
+    
+}
+@media only screen and (min-width: 767px) and (max-width: 1000px){
+.subscribe
+{
+ width: 500px;
+ margin:20px auto;
+}
+.imgCo img
+{
+width:100%;
+height:100%;
+}
+
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 767px){
+.subscribe
+{
+ width: 450px;
+ margin:20px auto;
+}
+.imgCo img
+{
+width:100%;
+height:100%;
+}
+#carousel
+{
+width:390px;
+}
+#carousel li img {
+width: 180px;
+height: 180px;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 599px){
+
+.subscribe
+{
+ width: 300px;
+ margin:20px auto;
+}
+.imgCo img
+{
+width:100%;
+height:100%;
+}
+
+#carousel
+{
+width:390px;
+}
+#carousel li img {
+width: 180px;
+height: 180px;
+}
+
+#contact-name,#contact-email,#contact-message
+{
+    width:70%;
+    
+}
+.contact-way
+
+{
+    font-size:10px;
+}
+
+
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+
+.subscribe
+{
+ width: 250px;
+ margin:20px auto;
+}
+.imgCo img
+{
+width:100%;
+height:100%;
+}
+#carousel
+{
+width:270px;
+}
+#carousel li img {
+width: 120px;
+height: 120px;
+}
+
+} 
+@media only screen and (min-width: 320px) and (max-width: 500px){
+
+.contact-info
+{
+    font-size:8px;
+}
+
+}
+@media only screen and (min-width: 500px) and (max-width: 767px){
+
+.contact-info
+{
+    font-size:12px;
+}
+
+}
+
+/*            COUNTDOWN
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++9*/
+
+
+
+
+
+
+@media all and (max-width: 900px) {
+	.dev-countdown canvas {
+		height: 134px;
+		width: 134px;
+	}
+
+	.dev-countdown .ce-digit  {
+		font-size: 35px;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.dev-countdown .ce-circle {
+		margin: -30px;
+		display: block;
+	}
+
+	.dev-countdown canvas {
+		height: 100px;
+		width: 100px;
+	}
+
+	.dev-countdown .ce-circle__values {
+		margin-top: -30px;
+	}
+
+	.dev-countdown .ce-digit  {
+		font-size: 30px;
+	}
+
+	.dev-countdown .ce-label  {
+		font-size: 12px;
+		margin-top: 8px;
+	}
+}
+
+
+
+@media all and (max-width: 300px) {
+	.dev-countdown .ce-circle {
+		margin: -30px;
+		display: block;
+	}
+
+	.dev-countdown canvas {
+		height: 70px;
+		width: 70px;
+	}
+
+	.dev-countdown .ce-circle__values {
+		margin-top: 40px;
+	}
+
+	.dev-countdown .ce-digit  {
+		font-size: 25px;
+	}
+
+	.dev-countdown .ce-label  {
+		font-size: 12px;
+		margin-top: 8px;
+	}
+}

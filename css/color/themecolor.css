@@ -1,0 +1,57 @@
+
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+AUTHOR : Vijayan PP
+PROJECT : DEV Coming-Soon Page
+VERSION : 1.1
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+.themecolor
+{
+    color:#117d8b;/*Defines the theme color*/
+}
+
+.theme_background_color
+{
+    background-color:#117d8b; /*Defines the theme bakcground color*/
+}
+
+.borderColor
+{
+    border-color:#000;/*Defines the color of the border*/
+}
+.social a,.social-big a
+{
+    color:#117d8b;
+}
+.black
+{
+    color:#000;
+}
+.footer
+{
+    border-top-color:#117d8b;
+}
+.white
+{
+    color:#fff;
+}
+.black-background
+{
+    background-color:#000;
+}
+
+.white-background
+{
+    background-color:#fff;
+}
+
+.grey
+{
+    color:#676565;
+}
+grey_background_color
+{
+    background-color:#676565;
+}
